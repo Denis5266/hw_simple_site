@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #EEEFF1;
+    width: 1920px;
+    height: 200px;
+}
+
+nav {
+    display: block;
+    padding: 79px 910px 605px 399px;
+}
+
+header a {
+    padding: 0 10px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.design {
+    background: #EEEFF1;
+    width: 1920px;
+    height: 500px;
+}
+
+h1 {
+    margin: 0 980px 60px 399px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+}
+
+.design p {
+    display: block;
+    margin: 0 980px 65px 400px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.design button {
+    margin: 0 1296px 141px 399px;
+    width: 225px;
+    height: 65px;
+    background: #34547A;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: none;
+    color: #FFFFFF;
+}
+
+.about_me {
+    width: 1920px;
+    height: 359px;
+}
+
+.about_me h2, .how_i_work h2 {
+    margin: 0;
+    padding: 112px 0 50px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.about_me p, .how_i_work p {
+    display: block;
+    width: 540px;
+    height: 67px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+}
+
+.projects {
+    width: 1920px;
+    height: 250px;
+    background: #34547A;
+}
+
+.projects ul {
+    padding: 100px 424px 100px 409px;
+}
+
+.projects li {
+    display: inline-block;
+    padding: 0 30px 0 0;
+}
+
+.projects p {
+    padding: 0 0 0 20px;
+    float: right;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.projects p span {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.how_i_work {
+    width: 1920px;
+    height: 1004px;
+    background: #EEEFF1;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    padding: 57px 0 0 0;
+}
+
+footer {
+    width: 1920px;
+    height: 151px;
+    background: #34547A;
+}
+
+h3 {
+    padding: 50px 1384px 0 406px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+footer p {
+    padding: 20px 1321px 0 406px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+

@@ -132,8 +132,11 @@ h1 {
 
 iframe {
     display: block;
+    width: 1110;
+    height: 600;
     margin: 0 auto;
     padding: 57px 0 0 0;
+    border: 0px;
 }
 
 footer {

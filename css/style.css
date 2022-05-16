@@ -8,19 +8,23 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container {    
+    margin: 0 auto;
+    max-width: 1110px;
+    width: 100%;
+    padding: 0 20px;
+}
+
 header {
     background-color: #EEEFF1;
-    width: 1920px;
-    height: 200px;
+    height: 700px;
 }
 
 nav {
-    display: block;
-    padding: 79px 910px 605px 399px;
+    padding-top: 79px;
 }
 
 header a {
-    padding: 0 10px 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -28,79 +32,70 @@ header a {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     color: #000000;
-}
-
-.design {
-    background: #EEEFF1;
-    width: 1920px;
-    height: 500px;
+    padding: 0 21px 0;
 }
 
 h1 {
-    margin: 0 980px 60px 399px;
+    margin-top: 162px;
     font-weight: 500;
     font-size: 48px;
     line-height: 79px;
 }
 
-.design p {
-    display: block;
-    margin: 0 980px 65px 400px;
+header p {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #727272;
+    max-width: 540px;
+    margin-top: 60px;
 }
 
-.design button {
-    margin: 0 1296px 141px 399px;
-    width: 225px;
-    height: 65px;
-    background: #34547A;
+header button {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.1em;
-    text-transform: uppercase;
-    border: none;
+    text-transform: uppercase; 
+    background: #34547A;
     color: #FFFFFF;
+    width: 225px;
+    height: 65px;
+    border: none;
+    margin-top: 65px;
+
 }
 
 .about_me {
-    width: 1920px;
     height: 359px;
 }
 
 .about_me h2, .how_i_work h2 {
-    margin: 0;
-    padding: 112px 0 50px;
     font-weight: 500;
     font-size: 32px;
     line-height: 38px;
     text-align: center;
+    margin-top: 112px;
 }
 
 .about_me p, .how_i_work p {
-    display: block;
-    width: 540px;
-    height: 67px;
-    margin: 0 auto;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
     color: #727272;
+    width: 540px;
+    margin: 50px auto 0;
 }
 
 .projects {
-    width: 1920px;
     height: 250px;
     background: #34547A;
 }
 
 .projects ul {
-    padding: 100px 424px 100px 409px;
+    padding-top: 100px;
 }
 
 .projects li {
@@ -109,12 +104,12 @@ h1 {
 }
 
 .projects p {
-    padding: 0 0 0 20px;
-    float: right;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #FFFFFF;
+    padding-left:20px;
+    float: right;
 }
 
 .projects p span {
@@ -125,39 +120,41 @@ h1 {
 }
 
 .how_i_work {
-    width: 1920px;
     height: 1004px;
     background: #EEEFF1;
 }
 
+.how_i_work h2 {
+    margin: 0;
+    padding-top: 100px;
+}
+
 iframe {
     display: block;
-    width: 1110;
-    height: 600;
-    margin: 0 auto;
-    padding: 57px 0 0 0;
+    width: 100%;
+    height: 600px;
+    margin: 57px auto 0;
     border: 0px;
 }
 
 footer {
-    width: 1920px;
     height: 151px;
     background: #34547A;
 }
 
 h3 {
-    padding: 50px 1384px 0 406px;
     font-weight: 500;
     font-size: 21px;
     line-height: 25px;
     color: #FFFFFF;
+    padding-top: 50px;
 }
 
 footer p {
-    padding: 20px 1321px 0 406px;
     font-weight: 400;
     font-size: 13px;
     line-height: 21px;
     color: #FFFFFF;
+    margin-top: 20px;
 }
 
